@@ -10,7 +10,7 @@ phoneRegex = re.compile(r'''(
 	(\d{3})							#first 3 digit
 	(\s|-|\.)						#separator
 	(\d{4})							#last 4 digit 
-	(\s*(ext|x|ext.)\s*(\d{2,5}))?	#extension
+	(\s*(ext|x|ext.)\s*(\d{2,5}))?	#extension   groups[6]:整体 groups[7]:前 groups[8]:后 
 	)''',re.VERBOSE)
 	
 #TODO: Create email regex.

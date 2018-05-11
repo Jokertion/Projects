@@ -13,12 +13,6 @@ phoneRegex = re.compile(r'''(
 	(\s*(ext|x|ext.)\s*(\d{2,5}))?	#extension   groups[6]:整体 groups[7]:前 groups[8]:后 
 	)''',re.VERBOSE)
 	
-#TODO: Create email regex.
-
-#TODO: Find matches in clipboard text.
-
-#TODO: Copy results to the clipboard.
-
 #Create email regex.	
 emailRegex = re.compile(r'''(
 	[a-zA-Z0-9._%+-]+
@@ -26,10 +20,6 @@ emailRegex = re.compile(r'''(
 	[a-zA-Z0-9.-]+
 	(\.[a-zA-Z]{2,4})
 	)''',re.VERBOSE)
-	
-#TODO:Find matches in clipboard text.
-
-#TODO: Copy results to the clipboard.
 
 #Find matches in clipboard text.
 text = str(pyperclip.paste())
@@ -41,8 +31,6 @@ for groups in phoneRegex.findall(text):
 	matches.append(phoneNum)
 for groups in emailRegex.findall(text):
 	matches.append(groups[0])
-	
-#TODO: Copy results to the clipboard.
 	
 #Copy results to the clipboard.
 if len(matches) > 0:

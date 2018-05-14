@@ -1,6 +1,6 @@
 #! python3
 #lucky.py - Opens several Google search results.
-#自动打开几个google搜索结果的程序
+#自动打开几个google(手气不错)搜索结果的程序
 import requests, sys, webbrowser, bs4
 
 #STEP1.获取命令行参数，并请求查找页面

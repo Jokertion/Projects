@@ -4,7 +4,7 @@
 #从Excel中读取数据，计算每个县中普查区总数目，计算每个县总人口
 #技能包：openpyxl模块，pprint模块（将数据结构写入一个.py文本文件中）
 
-#STEP1.读取电子表格数据
+#STEP1.读取表格数据
 import openpyxl, pprint
 print('Opening workbook...')
 wb =openpyxl.load_workbook('censuspopdata.xlsx')

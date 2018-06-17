@@ -1,6 +1,6 @@
-#! python3  复制地址自动google map查询
-# mapIT.py - Launches a map in the browser using an address from the 
-# command line or clipboard.
+#! python3 
+#复制地址自动google map查询
+# mapIT.py - Launches a map in the browser using an address from the command line or clipboard.
 #技能包：webbrowser模块
 
 import webbrowser, sys, pyperclip

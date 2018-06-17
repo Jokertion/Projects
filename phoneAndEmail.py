@@ -1,5 +1,5 @@
 #!python3  电话号码和E-mail地址提取程序
-#技能包：正则表达式
+# 技能包：正则表达式
 # phoneAndEmail.py = Finds phone numbers and email addresses on the clipboard.
 
 import pyperclip,re

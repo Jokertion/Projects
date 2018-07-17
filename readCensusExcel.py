@@ -1,7 +1,6 @@
 #！ python3
-#readCensusExcel.py - Tabulates population and number of census tracts for 
-# each county.
-#从Excel中读取数据，计算每个县中普查区总数目，计算每个县总人口
+#readCensusExcel.py - Tabulates population and number of census tracts for each county.
+#从人口普查的Excel中读取数据，合并计算每个县中普查区总数目，合并计算该县总人口（自动化计算多个选中单元格的和）
 #技能包：openpyxl模块，pprint模块（将数据结构写入一个.py文本文件中）
 
 #STEP1.读取表格数据
